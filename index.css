@@ -1,0 +1,243 @@
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+/* selectorChatSubtitle */
+._5l-3._1ht1._6zk9 ._1qt5._6zkd._5l-3,
+/* selectorMyTitle */
+h1[class="_6-xo"],
+/* selectorInfoPannelArrow */
+h4 ._1lj1._3vo-,
+/* selectorConversationReplyInfo */
+._3058._4k7a._3-9b,
+/* selectorConversationTimeInfo */
+time[class="_3oh-"],
+/* selectorMyAvatar */
+._7sta._7stb._87u_,
+._6-xl._6-xm,
+div[role="banner"] {
+  display: none;
+}
+
+/* selectorCurrentChatHeaderNameAndAvatar */
+._5743._6y4y {
+  visibility: hidden;
+}
+
+/* selectorChatContainer */
+._5l-3._1ht1._6zk9 {
+  height: 48px;
+  transition: all 0.33s;
+}
+
+/* selectorChatContainerSelected */
+._5l-3._1ht1._6zk9._1ht2 {
+  height: 70px;
+}
+
+/* selectorChatCurrentFriendAvatarImg */
+._3tkv ._1jt6._710_ ._87v3.img {
+  height: 250px !important;
+  width: 250px !important;
+  transition: all 0.33s;
+}
+
+/* selectorChatAvatarSimpleImg */
+._5l-3 ._87v3.img {
+  height: 25px !important;
+  width: 25px !important;
+  transition: all 0.33s;
+}
+
+/* selectorChatAvatarImgLeft */
+._5l-3 ._7q1j ._7q1i>img,
+/* selectorChatAvatarImgRight */
+._5l-3 ._7q1j ._7q0v>img {
+  height: 20px !important;
+  width: 20px !important;
+  transition: all 0.33s;
+}
+
+/* selectorChatAvatarContainerLeft */
+._7q1j ._7q1i,
+/* selectorChatAvatarContainerRight */
+._7q1j ._7q0v {
+  height: 20px !important;
+  width: 20px !important;
+  transition: all 0.33s;
+  border-width: 1.5px !important;
+}
+
+/* selectorChatAvatarGroup */
+._7q1j {
+  height: 32px !important;
+  width: 32px !important;
+}
+
+
+/* selectorChatTitle */
+._5l-3._1ht1._6zk9 ._1ht6._7st9 {
+  font-size: 13px;
+  color: black;
+  font-weight: 400;
+  transition: all 0.33s;
+}
+
+/* selectorChatTitleSelected */
+._1ht1._1ht2 ._6zkc ._1ht6._7st9 {
+  font-size: 32px;
+  color: black;
+  font-weight: 400;
+  transition: all 0.33s;
+}
+
+/* selectorChatTitleUnread */
+._1ht3 ._6zkb._7t1l._6zkc ._1ht6._7st9 {
+  font-size: 13px;
+  color: black;
+  font-weight: 700;
+  transition: all 0.33s;
+}
+
+/* selectorInfoPannelContactName */
+._3eur._6ybk span,
+/* selectorInfoPannelGroupName */
+._5rp7._5rpa span,
+/* selectorInfoPannelActiveInfo */
+._3eus._6_mz>div,
+/* selectorInfoPannelSubButtonText */
+._3szq,
+/* selectorInfoPannelButtonText */
+h4[class="_1lj0 _6ybm"] {
+  font-size: 13px;
+  text-transform: none;
+}
+
+/* selectorChatRightInfoIcon */
+._5l-3._1ht1._6zk9 ._2j6._6zkg {
+  right: 16px;
+  bottom: 16px;
+  transition: all 0.33s;
+  opacity: 0.35;
+}
+
+/* selectorChatRightInfoIconUnread */
+._1ht3 ._2j6._6zkg {
+  opacity: 1 !important;
+}
+
+/* selectorChatRightInfoIconSelected */
+._1ht2 ._2j6._6zkg._5l-3 {
+  bottom: 27px !important;
+  opacity: 1 !important;
+}
+
+
+/* selectorChatRoundedContainer */
+._6zkb._7t1l._6zkc {
+  opacity: 0.35;
+  background-color: transparent;
+  transition: all 0.33s;
+}
+
+/* selectorChatRoundedContainerSelected */
+._1ht1._1ht2 ._6zkc {
+  opacity: 1;
+  background-color: rgba(0, 0, 0, 0.05);
+  transition: all 0.33s;
+}
+
+/* selectorChatRoundedContainerUnread */
+._1ht3 ._6zkb._7t1l._6zkc {
+  opacity: 1;
+  transition: all 0.33s;
+}
+
+/* selectorConversationListView */
+div[aria-label="Conversations"],
+/* selectorContactListView */
+._11_d._705p._8cg4._4p-s {
+  animation: fadein 2s;
+}
+
+/* selectorConversationHeader */
+._6ynl {
+  border: none !important;
+  box-shadow: none !important;
+  background-color: transparent !important;
+}
+
+/* selectorMainView */
+div[role="main"],
+/* selectorInfoPannelButton */
+._1li- {
+  border: none !important;
+}
+
+/* selectorInfoPannelView */
+._4_j5 {
+  animation: fadein 1.5s;
+  border: none !important;
+}
+
+/* selectorMessageView */
+div[aria-label="Messages"],
+/* selectorChatInputView */
+div[aria-label="New message"] {
+  animation: fadein 0.5s;
+}
+
+/* selectorConversationMessage */
+._3058._ui9._hh7._6ybn._s1-._52mr._43by._6ybp._3oh- {
+  background-color: rgba(0, 153, 255, 0.85) !important;
+}

@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "good-messenger",
+  "version": "0.2.1",
+  "description": "Make Facebook Messenger a more relax experience",
+  "content_scripts": [
+    {
+      "css": [
+        "index.css"
+      ],
+      "js": [
+        "index.js"
+      ],
+      "matches": [
+        "https://www.messenger.com/*"
+      ]
+    }
+  ]
+}
