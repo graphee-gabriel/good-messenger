@@ -27,7 +27,7 @@ const selectorSearchContactInput = 'input[class="_58al _7tpc"]'
 /////////////////////////////
 // VARIABLES
 
-let hasTextInInput = false;
+// let hasTextInInput = false;
 
 
 
@@ -111,7 +111,6 @@ const runUpdateStylesLoop = () => {
       }
     }
   }
-  hasTextInInput = document.querySelector(selectorChatInputTextContentContainer) !== null;
 }
 
 
@@ -147,7 +146,8 @@ const runUpdateStylesOneShot = () => {
 
 document.addEventListener("keyup", function (event) {
   const searchContactInput = document.querySelector(selectorSearchContactInput);
-  searchContactInputIsFocused === searchContactInput && document.activeElement !== searchContactInput;
+  const searchContactInputIsFocused = searchContactInput && document.activeElement === searchContactInput;
+  const hasTextInInput = document.querySelector(selectorChatInputTextContentContainer) !== null;
   if (!hasTextInInput) {
     switch (event.key) {
       case 'ArrowUp': {
