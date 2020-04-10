@@ -148,7 +148,7 @@ document.addEventListener("keyup", function (event) {
   const searchContactInput = document.querySelector(selectorSearchContactInput);
   const searchContactInputIsFocused = searchContactInput && document.activeElement === searchContactInput;
   const hasTextInInput = document.querySelector(selectorChatInputTextContentContainer) !== null;
-  if (!hasTextInInput) {
+  if (!hasTextInInput && !searchContactInputIsFocused) {
     switch (event.key) {
       case 'ArrowUp': {
         const previous = document.querySelector('._5l-3._1ht1._6zk9._1ht2');
