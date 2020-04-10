@@ -56,7 +56,7 @@
 ._5l-3._1ht1._6zk9 ._1qt5._6zkd._5l-3,
 /* selectorMyTitle */
 h1[class="_6-xo"],
-/* selectorInfoPannelArrow */
+/* selectorInfoPanelArrow */
 h4 ._1lj1._3vo-,
 /* selectorConversationReplyInfo */
 ._3058._4k7a._3-9b,
@@ -164,15 +164,15 @@ div[style="height: 50px; width: 50px;"] {
   transition: all 0.33s;
 }
 
-/* selectorInfoPannelContactName */
+/* selectorInfoPanelContactName */
 ._3eur._6ybk span,
-/* selectorInfoPannelGroupName */
+/* selectorInfoPanelGroupName */
 ._5rp7._5rpa span,
-/* selectorInfoPannelActiveInfo */
+/* selectorInfoPanelActiveInfo */
 ._3eus._6_mz>div,
-/* selectorInfoPannelSubButtonText */
+/* selectorInfoPanelSubButtonText */
 ._3szq,
-/* selectorInfoPannelButtonText */
+/* selectorInfoPanelButtonText */
 h4[class="_1lj0 _6ybm"] {
   font-size: 13px;
   text-transform: none;
@@ -234,12 +234,12 @@ div[aria-label="Conversations"],
 
 /* selectorMainView */
 div[role="main"],
-/* selectorInfoPannelButton */
+/* selectorInfoPanelButton */
 ._1li- {
   border: none !important;
 }
 
-/* selectorInfoPannelView */
+/* selectorInfoPanelView */
 ._4_j5 {
   animation: fadein 1.5s;
   border: none !important;
@@ -255,4 +255,15 @@ div[aria-label="New message"] {
 /* selectorConversationMessage */
 ._3058._ui9._hh7._6ybn._s1-._52mr._43by._6ybp._3oh- {
   background-color: rgba(0, 153, 255, 0.85) !important;
+}
+
+
+/* conversation window */
+._4_j4 {
+  min-height: 100vh;
+  margin-top: -60px;
+}
+._4u-c ._1wfr ._9hq {
+  height: 800px !important;
+
 }

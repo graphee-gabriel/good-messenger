@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "good-messenger",
-  "version": "0.2.2",
+  "version": "0.2.4",
   "description": "Make Facebook Messenger a more relax experience",
   "content_scripts": [
     {
