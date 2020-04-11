@@ -246,7 +246,11 @@ div[role="main"],
 }
 
 /* selectorMessageView */
-div[aria-label="Messages"],
+div[aria-label="Messages"] {
+  animation: fadein 0.5s;
+  padding-right: 25px !important;
+}
+
 /* selectorChatInputView */
 div[aria-label="New message"] {
   animation: fadein 0.5s;
